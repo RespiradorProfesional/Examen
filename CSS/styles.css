@@ -1,0 +1,110 @@
+:root {
+  --azul: hsl(179, 62%, 43%);
+
+  --yellow: hsl(71, 73%, 54%);
+
+  --gris: hsl(204, 43%, 93%);
+
+  --azulfeo: hsl(218, 22%, 67%);
+}
+
+body {
+  margin: auto;
+}
+
+body p {
+  font-size: 16px;
+}
+
+.contenedorgen {
+  box-shadow: 0px 0px 16px 0px rgba(61, 60, 61, 0.79);
+  margin: auto;
+  text-align: center;
+  width: 50rem;
+  padding-bottom: 1rem;
+  border-radius: 3rem;
+  position: relative;
+  top: 10rem;
+}
+.contenedor1 {
+  text-align: left;
+
+  margin: 3rem;
+  padding-top: 1rem;
+}
+
+.contenedor1 h2 {
+  color: var(--azul);
+}
+
+.contenedor1 h1 {
+  color: var(--yellow);
+}
+
+.contenedor1 p {
+  color: var(--azulfeo);
+}
+
+.contenedorjunto {
+  display: inline-flex;
+}
+
+.contenedor2 {
+  text-align: left;
+  background-color: var(--azul);
+  width: 35rem;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 5rem;
+}
+
+.contenedor2 h1 {
+  font-size: 20px;
+  color: #ffff;
+}
+
+.contenedor2 p {
+  color: rgb(170, 213, 243);
+}
+
+.contenedor2 span {
+  font-size: 43px;
+  color: #ffff;
+  margin: 2px;
+}
+
+.contenedor2 h2 {
+  font-size: 16px;
+  color: #ffff;
+}
+
+.contenedor3 {
+  text-align: left;
+
+  background-color: hsl(179, 38%, 55%);
+}
+
+.contenedor3 h1 {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  color: #ffff;
+  font-size: 20px;
+}
+
+.contenedor3 p {
+  margin-right: 1rem;
+  color: hsl(178, 55%, 78%);
+}
+
+.boton {
+  background-color: var(--yellow);
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+a {
+  color: #ffff;
+  text-decoration: none;
+}
